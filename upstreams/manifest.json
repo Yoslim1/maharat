@@ -1,0 +1,92 @@
+{
+  "name": "maharat",
+  "title": "مهارات",
+  "collected_at": "2026-08-25",
+  "format": "Agent Skills / SKILL.md",
+  "sources": [
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "vendored": true,
+      "license": "MIT",
+      "local_paths": ["skills/web/ui-ux-pro-max"]
+    },
+    {
+      "repository": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design",
+      "vendored": true,
+      "license": "See licenses/anthropics-claude-code-license.md",
+      "local_paths": ["skills/web/anthropic-frontend-design"]
+    },
+    {
+      "repository": "android/skills",
+      "url": "https://github.com/android/skills",
+      "vendored": true,
+      "license": "Apache-2.0",
+      "local_paths": ["skills/android/google-jetpack-compose", "skills/android/google-navigation-3", "skills/android/google-edge-to-edge", "skills/android/google-testing-setup"]
+    },
+    {
+      "repository": "hamen/material-3-skill",
+      "url": "https://github.com/hamen/material-3-skill",
+      "vendored": true,
+      "license": "MIT",
+      "local_paths": ["skills/android/material-3"]
+    },
+    {
+      "repository": "chrisbanes/skills",
+      "url": "https://github.com/chrisbanes/skills",
+      "vendored": true,
+      "license": "See licenses/chrisbanes-skills-license",
+      "local_paths": ["skills/android/chrisbanes-compose-state-and-effects", "skills/android/chrisbanes-compose-performance", "skills/android/chrisbanes-compose-component-design", "skills/android/chrisbanes-compose-focus-navigation"]
+    },
+    {
+      "repository": "rcosteira79/android-skills",
+      "url": "https://github.com/rcosteira79/android-skills",
+      "vendored": true,
+      "license": "MIT",
+      "local_paths": ["skills/android/rcosteira79"]
+    },
+    {
+      "repository": "Drjacky/claude-android-ninja",
+      "url": "https://github.com/Drjacky/claude-android-ninja",
+      "vendored": true,
+      "license": "Apache-2.0",
+      "local_paths": ["skills/android/android-ninja"]
+    },
+    {
+      "repository": "skydoves/compose-performance-skills",
+      "url": "https://github.com/skydoves/compose-performance-skills",
+      "vendored": true,
+      "license": "Apache-2.0",
+      "local_paths": ["skills/android/skydoves-compose-performance"]
+    },
+    {
+      "repository": "Kotlin/kotlin-agent-skills",
+      "url": "https://github.com/Kotlin/kotlin-agent-skills",
+      "vendored": true,
+      "license": "Apache-2.0",
+      "local_paths": ["skills/kotlin/jetbrains"]
+    },
+    {
+      "repository": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "vendored": true,
+      "license": "See licenses/obra-superpowers-license",
+      "local_paths": ["skills/workflow/superpowers"]
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "vendored": false,
+      "license": "No clear LICENSE file or GitHub license metadata in checked snapshot",
+      "reference_path": "upstreams/vercel-agent-skills.md"
+    },
+    {
+      "repository": "nimrodfisher/data-analytics-skills",
+      "url": "https://github.com/nimrodfisher/data-analytics-skills",
+      "vendored": false,
+      "license": "No clear LICENSE file or GitHub license metadata in checked snapshot",
+      "reference_path": "upstreams/data-analytics-skills.md"
+    }
+  ]
+}

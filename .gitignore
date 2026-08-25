@@ -1,0 +1,9 @@
+# Local source clones used only during collection
+skill_sources/
+*.pyc
+__pycache__/
+.DS_Store
+
+# Local agent directories
+.claude/
+.agents/
