@@ -26,6 +26,24 @@
 | Android Ninja | `skills/android/android-ninja` | Broad Android reference for architecture, Compose, Material 3, RTL, data sync, testing, security, performance, and CI/CD. | [Drjacky/claude-android-ninja](https://github.com/Drjacky/claude-android-ninja) |
 | Compose performance pack | `skills/android/skydoves-compose-performance` | Compose stability, recomposition, lists, modifiers, measurement, R8, baseline profiles, and audit. | [skydoves/compose-performance-skills](https://github.com/skydoves/compose-performance-skills) |
 
+## Quality guards and UI evidence
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Clean Code Guard | `skills/quality/guard-skills/clean-code-guard` | يراجع الكود المنتج أو المعدل ضد Clean Code وSOLID وDRY/KISS/YAGNI وأخطاء الوكلاء الشائعة. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| Test Guard | `skills/quality/guard-skills/test-guard` | يراجع الاختبارات ضد mock abuse والاختبارات المكررة والاختبارات التي لا تلتقط عيوبًا حقيقية. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| Docs Guard | `skills/quality/guard-skills/docs-guard` | يتحقق من أن README وAPI docs والأمثلة متوافقة مع الكود وغير مبنية على claims غير قابلة للتحقق. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| WordPress Guard | `skills/quality/guard-skills/wp-guard` | يراجع sanitization وescaping وnonces والصلاحيات والاستعلامات والترجمة في WordPress. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| WooCommerce Guard | `skills/quality/guard-skills/woo-guard` | يراجع HPOS وCRUD والـcheckout والمال والمخزون وتوافق إضافات WooCommerce. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| UI Review Loop | `skills/web/ui-review-loop` | يسجل جولات UI بفيديو وDOM timeline وnetwork evidence، ثم يتيح مراجعتها وتعليقها محليًا. استخدمه ببيانات وهمية فقط. | [amElnagdy/ui-review-loop](https://github.com/amElnagdy/ui-review-loop) |
+
+## Workflow review
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Debate Review | `skills/workflow/review-skills/debate-review` | مراجعة PR/MR بنموذج رئيسي ونموذج مناظر قبل نشر تعليق واحد. يحتاج صلاحية `gh`/`glab` ولا ينشر تلقائيًا دون تشغيله. | [amElnagdy/review-skills](https://github.com/amElnagdy/review-skills) |
+| Babysit PR | `skills/workflow/review-skills/babysit-pr` | يجمع threads ويحقق في findings ويعيد تشغيل جولات المراجعة بعد الإصلاح. يحتاج مراجعة بشرية قبل أي رد أو resolve. | [amElnagdy/review-skills](https://github.com/amElnagdy/review-skills) |
+
 ## Kotlin and workflow
 
 | Skill | Local path | Purpose | Upstream |

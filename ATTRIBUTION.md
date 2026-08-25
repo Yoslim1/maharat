@@ -20,6 +20,14 @@
 | `skills/kotlin/jetbrains` | https://github.com/Kotlin/kotlin-agent-skills | `licenses/kotlin-agent-skills-Apache-2.0` | Kotlin tooling and migration skills from the Kotlin incubator repository. |
 | `skills/workflow/superpowers/*` | https://github.com/obra/superpowers | `licenses/obra-superpowers-license` | Selected planning, TDD, debugging, review, and verification skills. |
 
+## Additional vendored skills from amElnagdy
+
+| Local path | Upstream source | License evidence | Notes |
+|---|---|---|---|
+| `skills/quality/guard-skills/*` | https://github.com/amElnagdy/guard-skills | `licenses/amelnagdy-guard-skills-MIT.txt` | Five quality guards: clean code, tests, docs, WordPress, and WooCommerce. |
+| `skills/web/ui-review-loop` | https://github.com/amElnagdy/ui-review-loop | `licenses/amelnagdy-ui-review-loop-Apache-2.0.txt` | Includes the recorder, review server, references, and templates. Video and form values may contain sensitive data. |
+| `skills/workflow/review-skills/*` | https://github.com/amElnagdy/review-skills | `licenses/amelnagdy-review-skills-MIT.txt` | Debate-review and babysit-pr. Requires authenticated forge CLI and explicit operational approval before posting. |
+
 ## Reference-only sources
 
 The following sources are linked but not copied because a clear redistributable license file or GitHub license metadata was not available in the checked snapshot:
@@ -28,6 +36,10 @@ The following sources are linked but not copied because a clear redistributable 
 |---|---|---|
 | https://github.com/vercel-labs/agent-skills | `web-design-guidelines`, `react-best-practices`, `react-native-skills`, `composition-patterns` | `upstreams/vercel-agent-skills.md` |
 | https://github.com/nimrodfisher/data-analytics-skills | `programmatic-eda`, `data-quality-audit`, `schema-mapper`, `query-validation`, `visualization-builder`, `dashboard-specification`, `insight-synthesis`, `analysis-planning` | `upstreams/data-analytics-skills.md` |
+
+## Operational safety notes
+
+`skills/web/ui-review-loop` must be run with synthetic data or explicit redaction planning because video pixels are not redacted. `skills/workflow/review-skills` can post comments and resolve threads through the user's forge account; keep it in an advanced category and preview with dry-run where available. `skills/quality/guard-skills` are review lenses and do not replace project tests, linters, or security review.
 
 ## Redistribution rules
 

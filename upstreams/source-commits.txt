@@ -1,7 +1,10 @@
-# Upstream commit snapshots
 
+# Upstream commit snapshots
 Drjacky__claude-android-ninja                baa6e883e9355945838a51ae628e3747dbe6c764
 Kotlin__kotlin-agent-skills                  08d7ad0d74a9a5a548287b2bd4926180fab56cac
+amElnagdy__guard-skills                       ffa26036b7b5e77b20b5d679304a703b6fd1a43d
+amElnagdy__review-skills                      bba12429419f77bed686f6754fa04bafaa1a18bf
+amElnagdy__ui-review-loop                     de1854621ac067d1cf9a81953813e217061af0c7
 android__skills                              aaca635061a4befdd3890d63c4a02963f2e8d925
 anthropics__claude-code                      1af51fd77b7e40017c1032249db75fe582d23283
 chrisbanes__skills                           948acbbd6c444d9aef46ef96fa981ea440e0cf0d

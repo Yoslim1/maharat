@@ -75,6 +75,28 @@
       "local_paths": ["skills/workflow/superpowers"]
     },
     {
+      "repository": "amElnagdy/guard-skills",
+      "url": "https://github.com/amElnagdy/guard-skills",
+      "vendored": true,
+      "license": "MIT",
+      "local_paths": ["skills/quality/guard-skills/clean-code-guard", "skills/quality/guard-skills/docs-guard", "skills/quality/guard-skills/test-guard", "skills/quality/guard-skills/wp-guard", "skills/quality/guard-skills/woo-guard"]
+    },
+    {
+      "repository": "amElnagdy/ui-review-loop",
+      "url": "https://github.com/amElnagdy/ui-review-loop",
+      "vendored": true,
+      "license": "Apache-2.0",
+      "local_paths": ["skills/web/ui-review-loop"]
+    },
+    {
+      "repository": "amElnagdy/review-skills",
+      "url": "https://github.com/amElnagdy/review-skills",
+      "vendored": true,
+      "license": "MIT",
+      "local_paths": ["skills/workflow/review-skills/debate-review", "skills/workflow/review-skills/babysit-pr"],
+      "operational_note": "Advanced skills; require authenticated gh/glab and explicit approval before posting or resolving forge discussions."
+    },
+    {
       "repository": "vercel-labs/agent-skills",
       "url": "https://github.com/vercel-labs/agent-skills",
       "vendored": false,

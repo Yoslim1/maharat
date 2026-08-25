@@ -14,6 +14,7 @@
 | Android | `skills/android/` | Compose، Material 3، Navigation 3، edge-to-edge، testing، architecture، الأداء. |
 | Data | `skills/data/` | مرجع مصدر لمهارات EDA وجودة البيانات والـdashboards عند غياب ترخيص إعادة التوزيع. |
 | Workflow | `skills/workflow/` | التخطيط، TDD، debugging، code review والتحقق قبل التسليم. |
+| Quality | `skills/quality/` | حواجز مراجعة للكود والاختبارات والتوثيق وWordPress وWooCommerce. |
 | Kotlin | `skills/kotlin/` | مهارات Kotlin وtooling من مصدر JetBrains/Kotlin. |
 
 ## طريقة استخدام أي مهارة
@@ -32,7 +33,7 @@ cp -a skills/android/material-3 .agents/skills/
 
 ## ترتيب الأولوية المقترح
 
-لإنشاء موقع، ابدأ بـ `web/ui-ux-pro-max` لتحديد النظام البصري، ثم استخدم مهارات Vercel من مصدرها الأصلي لتدقيق الواجهة والأداء. لتطبيق Android، ابدأ بـ `android/google-jetpack-compose` و`android/material-3`، ثم استخدم مهارات `rcosteira79` أو Chris Banes عند الحاجة إلى architecture أو state أو performance. ابدأ كل مشروع مع `workflow/superpowers/writing-plans`، ولا تستخدم عدة حزم شاملة متداخلة في الوقت نفسه دون تحديد مصدر أولوية.
+لإنشاء موقع، ابدأ بـ `web/ui-ux-pro-max` لتحديد النظام البصري، ثم استخدم مهارات Vercel من مصدرها الأصلي لتدقيق الواجهة والأداء. لتطبيق Android، ابدأ بـ `android/google-jetpack-compose` و`android/material-3`، ثم استخدم مهارات `rcosteira79` أو Chris Banes عند الحاجة إلى architecture أو state أو performance. ابدأ كل مشروع مع `workflow/superpowers/writing-plans`، ثم شغّل `quality/guard-skills/clean-code-guard` و`quality/guard-skills/test-guard` بعد التعديل. لمراجعة واجهة ويب فعلية استخدم `web/ui-review-loop` ببيانات وهمية فقط. استخدم `workflow/review-skills/debate-review` أو `babysit-pr` فقط في مستودع يسمح بالنشر وبعد مراجعة بشرية صريحة. لا تستخدم عدة حزم شاملة متداخلة في الوقت نفسه دون تحديد مصدر أولوية.
 
 ## التحديثات
 
@@ -44,4 +45,4 @@ cp -a skills/android/material-3 .agents/skills/
 
 ## المراجع
 
-المصادر الأساسية هي [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)، [Android Skills الرسمي](https://github.com/android/skills)، [Material 3 Skill](https://github.com/hamen/material-3-skill)، [Chris Banes Skills](https://github.com/chrisbanes/skills)، [Anthropic Frontend Design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design)، [Superpowers](https://github.com/obra/superpowers)، [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)، [Android Ninja](https://github.com/Drjacky/claude-android-ninja)، و[Compose Performance Skills](https://github.com/skydoves/compose-performance-skills). راجع `ATTRIBUTION.md` للقائمة الكاملة وحالة كل مصدر.
+المصادر الأساسية هي [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)، [Android Skills الرسمي](https://github.com/android/skills)، [Material 3 Skill](https://github.com/hamen/material-3-skill)، [Chris Banes Skills](https://github.com/chrisbanes/skills)، [Anthropic Frontend Design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design)، [Superpowers](https://github.com/obra/superpowers)، [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)، [Android Ninja](https://github.com/Drjacky/claude-android-ninja)، [Compose Performance Skills](https://github.com/skydoves/compose-performance-skills)، [amElnagdy guard-skills](https://github.com/amElnagdy/guard-skills)، [amElnagdy ui-review-loop](https://github.com/amElnagdy/ui-review-loop)، و[amElnagdy review-skills](https://github.com/amElnagdy/review-skills). راجع `ATTRIBUTION.md` للقائمة الكاملة وحالة كل مصدر.
