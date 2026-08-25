@@ -37,7 +37,17 @@ cp -a skills/android/material-3 .agents/skills/
 
 ## التحديثات
 
-هذا المستودع **snapshot تجميعي** وليس forkًا آليًا لكل upstream. عند تحديث المصادر، افحص التغييرات، راجع الترخيص، حدّث `upstreams/manifest.json`، ثم نفّذ اختبارات البنية والروابط قبل عمل commit. لا تشغّل أي script من مصدر خارجي قبل مراجعة محتواه.
+هذا المستودع **snapshot تجميعي** وليس forkًا آليًا لكل upstream، لكن توجد الآن مزامنة تلقائية آمنة عبر `.github/workflows/sync-skills.yml`. تعمل المزامنة أسبوعيًا أو يدويًا من تبويب Actions، وتقرأ فقط المسارات الموجودة في `upstreams/sync-manifest.json`، ثم تشغّل `scripts/validate-maharat.sh` وتفتح Pull Request عند وجود تغييرات. لا يتم الدمج تلقائيًا؛ يجب مراجعة الفرق والتراخيص والملفات الجديدة قبل الدمج.
+
+للمزامنة اليدوية من جهازك:
+
+```bash
+python3 scripts/sync_sources.py --check  # فحص المصادر دون تعديل
+python3 scripts/sync_sources.py          # مزامنة المسارات المسموح بها
+bash scripts/validate-maharat.sh
+```
+
+لا تشغّل أي script من مصدر خارجي قبل مراجعة محتواه. المزامنة نفسها لا تنفذ ملفات upstream؛ هي تجلب وتنسخ المسارات المسجلة فقط.
 
 ## الترخيص
 
