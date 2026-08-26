@@ -138,12 +138,49 @@
       "repo": "https://github.com/skydoves/compose-performance-skills.git",
       "paths": [
         {
-          "source": ".",
-          "destination": "skills/android/skydoves-compose-performance",
-          "mode": "tree",
-          "exclude": [
-            ".git"
-          ]
+          "source": "audit",
+          "destination": "skills/android/skydoves-compose-performance/audit",
+          "mode": "tree"
+        },
+        {
+          "source": "build",
+          "destination": "skills/android/skydoves-compose-performance/build",
+          "mode": "tree"
+        },
+        {
+          "source": "hot-reload",
+          "destination": "skills/android/skydoves-compose-performance/hot-reload",
+          "mode": "tree"
+        },
+        {
+          "source": "lists",
+          "destination": "skills/android/skydoves-compose-performance/lists",
+          "mode": "tree"
+        },
+        {
+          "source": "measurement",
+          "destination": "skills/android/skydoves-compose-performance/measurement",
+          "mode": "tree"
+        },
+        {
+          "source": "modifiers",
+          "destination": "skills/android/skydoves-compose-performance/modifiers",
+          "mode": "tree"
+        },
+        {
+          "source": "recomposition",
+          "destination": "skills/android/skydoves-compose-performance/recomposition",
+          "mode": "tree"
+        },
+        {
+          "source": "side-effects",
+          "destination": "skills/android/skydoves-compose-performance/side-effects",
+          "mode": "tree"
+        },
+        {
+          "source": "stability",
+          "destination": "skills/android/skydoves-compose-performance/stability",
+          "mode": "tree"
         }
       ],
       "license_source": "LICENSE",
