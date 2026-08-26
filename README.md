@@ -12,8 +12,9 @@
 |---|---|---|
 | Web وUX/UI | `skills/web/` | Design System، frontend design، accessibility، React وReact Native. |
 | Android | `skills/android/` | Compose، Material 3، Navigation 3، edge-to-edge، testing، architecture، الأداء. |
-| Data | `skills/data/` | مرجع مصدر لمهارات EDA وجودة البيانات والـdashboards عند غياب ترخيص إعادة التوزيع. |
-| Workflow | `skills/workflow/` | التخطيط، TDD، debugging، code review والتحقق قبل التسليم. |
+| Data | `skills/data/` | EDA، scientific visualization، statistical analysis، data quality، وdata storytelling. |
+| Architecture | `skills/architecture/` | API design، Clean/Hexagonal Architecture، bounded contexts، وADRs. |
+| Workflow | `skills/workflow/` | التخطيط، TDD، debugging، code review، pre-build risk، والتحقق قبل التسليم. |
 | Quality | `skills/quality/` | حواجز مراجعة للكود والاختبارات والتوثيق وWordPress وWooCommerce. |
 | Kotlin | `skills/kotlin/` | مهارات Kotlin وtooling من مصدر JetBrains/Kotlin. |
 
@@ -33,7 +34,7 @@ cp -a skills/android/material-3 .agents/skills/
 
 ## ترتيب الأولوية المقترح
 
-لإنشاء موقع، ابدأ بـ `web/ui-ux-pro-max` لتحديد النظام البصري، ثم استخدم مهارات Vercel من مصدرها الأصلي لتدقيق الواجهة والأداء. لتطبيق Android، ابدأ بـ `android/google-jetpack-compose` و`android/material-3`، ثم استخدم مهارات `rcosteira79` أو Chris Banes عند الحاجة إلى architecture أو state أو performance. ابدأ كل مشروع مع `workflow/superpowers/writing-plans`، ثم شغّل `quality/guard-skills/clean-code-guard` و`quality/guard-skills/test-guard` بعد التعديل. لمراجعة واجهة ويب فعلية استخدم `web/ui-review-loop` ببيانات وهمية فقط. استخدم `workflow/review-skills/debate-review` أو `babysit-pr` فقط في مستودع يسمح بالنشر وبعد مراجعة بشرية صريحة. لا تستخدم عدة حزم شاملة متداخلة في الوقت نفسه دون تحديد مصدر أولوية.
+لإنشاء موقع، ابدأ بـ `workflow/before-you-build` لتحديد الحاجة والنطاق، ثم اختر **طبقة تصميم واحدة**: إما `web/ui-ux-pro-max` كنظام شامل، أو مجموعة `web/jakub-*` عندما تريد مراجعة modular. استخدم `web/jakub-better-interface` للمراجعة الشاملة، والمهارات المتخصصة للألوان والطباعة والوصولية والتخطيط فقط عند الحاجة. بعد ذلك استخدم `web/design-system-patterns` و`web/responsive-design`، ثم `web/interaction-design` للصقل. لتطبيق Android، ابدأ بـ `android/google-jetpack-compose` و`android/material-3`، ثم استخدم Chris Banes أو Android Ninja عند الحاجة إلى state أو performance أو architecture. للبيانات، ابدأ بـ `data/exploratory-data-analysis`، ثم `data/data-quality-frameworks`، واستخدم `data/scientific-visualization` و`data/statistical-analysis` حسب السؤال. لهندسة المشروع، استخدم `architecture/architecture-patterns` و`architecture/api-design-principles` قبل إنشاء خدمة جديدة، وسجل القرار في `architecture/architecture-decision-records`. بعد التعديل شغّل `quality/guard-skills/clean-code-guard` و`quality/guard-skills/test-guard`، ويمكن استخدام `workflow/bounded-self-improvement` لتسجيل lessons واقتراح تحسينات بموافقة بشرية. لا تستخدم عدة حزم شاملة متداخلة في الوقت نفسه.
 
 ## التحديثات
 
@@ -55,4 +56,4 @@ bash scripts/validate-maharat.sh
 
 ## المراجع
 
-المصادر الأساسية هي [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)، [Android Skills الرسمي](https://github.com/android/skills)، [Material 3 Skill](https://github.com/hamen/material-3-skill)، [Chris Banes Skills](https://github.com/chrisbanes/skills)، [Anthropic Frontend Design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design)، [Superpowers](https://github.com/obra/superpowers)، [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)، [Android Ninja](https://github.com/Drjacky/claude-android-ninja)، [Compose Performance Skills](https://github.com/skydoves/compose-performance-skills)، [amElnagdy guard-skills](https://github.com/amElnagdy/guard-skills)، [amElnagdy ui-review-loop](https://github.com/amElnagdy/ui-review-loop)، و[amElnagdy review-skills](https://github.com/amElnagdy/review-skills). راجع `ATTRIBUTION.md` للقائمة الكاملة وحالة كل مصدر.
+المصادر الأساسية هي [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)، [jakubkrehel/skills](https://github.com/jakubkrehel/skills)، [wshobson/agents](https://github.com/wshobson/agents)، و[K-Dense scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)، إلى جانب [Android Skills الرسمي](https://github.com/android/skills)، [Material 3 Skill](https://github.com/hamen/material-3-skill)، [Chris Banes Skills](https://github.com/chrisbanes/skills)، [Anthropic Frontend Design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design)، [Superpowers](https://github.com/obra/superpowers)، [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)، [Android Ninja](https://github.com/Drjacky/claude-android-ninja)، [Compose Performance Skills](https://github.com/skydoves/compose-performance-skills)، [amElnagdy guard-skills](https://github.com/amElnagdy/guard-skills)، [amElnagdy ui-review-loop](https://github.com/amElnagdy/ui-review-loop)، و[amElnagdy review-skills](https://github.com/amElnagdy/review-skills). راجع `CATALOG.md` و`ATTRIBUTION.md` للقائمة الكاملة وحالة كل مصدر، و`docs/global-skill-selection-ar.md` لشرح الاختيارات العالمية.

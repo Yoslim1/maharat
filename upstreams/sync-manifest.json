@@ -5,14 +5,26 @@
     {
       "id": "ui-ux-pro-max",
       "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
-      "paths": [{"source": ".claude/skills/ui-ux-pro-max", "destination": "skills/web/ui-ux-pro-max", "mode": "tree"}],
+      "paths": [
+        {
+          "source": ".claude/skills/ui-ux-pro-max",
+          "destination": "skills/web/ui-ux-pro-max",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/nextlevelbuilder-ui-ux-pro-max-MIT"
     },
     {
       "id": "anthropic-frontend-design",
       "repo": "https://github.com/anthropics/claude-code.git",
-      "paths": [{"source": "plugins/frontend-design/skills/frontend-design", "destination": "skills/web/anthropic-frontend-design", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "plugins/frontend-design/skills/frontend-design",
+          "destination": "skills/web/anthropic-frontend-design",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE.md",
       "license_destination": "licenses/anthropics-claude-code-license.md"
     },
@@ -20,10 +32,26 @@
       "id": "android-skills",
       "repo": "https://github.com/android/skills.git",
       "paths": [
-        {"source": "jetpack-compose", "destination": "skills/android/google-jetpack-compose", "mode": "tree"},
-        {"source": "navigation/navigation-3", "destination": "skills/android/google-navigation-3", "mode": "tree"},
-        {"source": "system/edge-to-edge", "destination": "skills/android/google-edge-to-edge", "mode": "tree"},
-        {"source": "testing/testing-setup", "destination": "skills/android/google-testing-setup", "mode": "tree"}
+        {
+          "source": "jetpack-compose",
+          "destination": "skills/android/google-jetpack-compose",
+          "mode": "tree"
+        },
+        {
+          "source": "navigation/navigation-3",
+          "destination": "skills/android/google-navigation-3",
+          "mode": "tree"
+        },
+        {
+          "source": "system/edge-to-edge",
+          "destination": "skills/android/google-edge-to-edge",
+          "mode": "tree"
+        },
+        {
+          "source": "testing/testing-setup",
+          "destination": "skills/android/google-testing-setup",
+          "mode": "tree"
+        }
       ],
       "license_source": "LICENSE.txt",
       "license_destination": "licenses/android-skills-Apache-2.0.txt"
@@ -31,7 +59,13 @@
     {
       "id": "material-3",
       "repo": "https://github.com/hamen/material-3-skill.git",
-      "paths": [{"source": "skills/material-3", "destination": "skills/android/material-3", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "skills/material-3",
+          "destination": "skills/android/material-3",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/hamen-material-3-MIT"
     },
@@ -39,10 +73,26 @@
       "id": "chrisbanes-compose",
       "repo": "https://github.com/chrisbanes/skills.git",
       "paths": [
-        {"source": "skills/compose-state-and-effects", "destination": "skills/android/chrisbanes-compose-state-and-effects", "mode": "tree"},
-        {"source": "skills/compose-performance", "destination": "skills/android/chrisbanes-compose-performance", "mode": "tree"},
-        {"source": "skills/compose-component-design", "destination": "skills/android/chrisbanes-compose-component-design", "mode": "tree"},
-        {"source": "skills/compose-focus-navigation", "destination": "skills/android/chrisbanes-compose-focus-navigation", "mode": "tree"}
+        {
+          "source": "skills/compose-state-and-effects",
+          "destination": "skills/android/chrisbanes-compose-state-and-effects",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/compose-performance",
+          "destination": "skills/android/chrisbanes-compose-performance",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/compose-component-design",
+          "destination": "skills/android/chrisbanes-compose-component-design",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/compose-focus-navigation",
+          "destination": "skills/android/chrisbanes-compose-focus-navigation",
+          "mode": "tree"
+        }
       ],
       "license_source": "LICENSE",
       "license_destination": "licenses/chrisbanes-skills-license"
@@ -50,7 +100,13 @@
     {
       "id": "rcosteira79-android",
       "repo": "https://github.com/rcosteira79/android-skills.git",
-      "paths": [{"source": "plugins/android-skills/skills", "destination": "skills/android/rcosteira79", "mode": "contents"}],
+      "paths": [
+        {
+          "source": "plugins/android-skills/skills",
+          "destination": "skills/android/rcosteira79",
+          "mode": "contents"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/rcosteira79-android-skills-MIT"
     },
@@ -58,9 +114,21 @@
       "id": "android-ninja",
       "repo": "https://github.com/Drjacky/claude-android-ninja.git",
       "paths": [
-        {"source": "SKILL.md", "destination": "skills/android/android-ninja/SKILL.md", "mode": "file"},
-        {"source": "references", "destination": "skills/android/android-ninja/references", "mode": "tree"},
-        {"source": "assets", "destination": "skills/android/android-ninja/assets", "mode": "tree"}
+        {
+          "source": "SKILL.md",
+          "destination": "skills/android/android-ninja/SKILL.md",
+          "mode": "file"
+        },
+        {
+          "source": "references",
+          "destination": "skills/android/android-ninja/references",
+          "mode": "tree"
+        },
+        {
+          "source": "assets",
+          "destination": "skills/android/android-ninja/assets",
+          "mode": "tree"
+        }
       ],
       "license_source": "LICENSE.md",
       "license_destination": "licenses/drjacky-android-ninja-Apache-2.0.md"
@@ -68,44 +136,297 @@
     {
       "id": "compose-performance-pack",
       "repo": "https://github.com/skydoves/compose-performance-skills.git",
-      "paths": [{"source": ".", "destination": "skills/android/skydoves-compose-performance", "mode": "tree", "exclude": [".git"]}],
+      "paths": [
+        {
+          "source": ".",
+          "destination": "skills/android/skydoves-compose-performance",
+          "mode": "tree",
+          "exclude": [
+            ".git"
+          ]
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/skydoves-compose-performance-Apache-2.0"
     },
     {
       "id": "kotlin-agent-skills",
       "repo": "https://github.com/Kotlin/kotlin-agent-skills.git",
-      "paths": [{"source": "skills", "destination": "skills/kotlin/jetbrains", "mode": "contents"}],
+      "paths": [
+        {
+          "source": "skills",
+          "destination": "skills/kotlin/jetbrains",
+          "mode": "contents"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/kotlin-agent-skills-Apache-2.0"
     },
     {
       "id": "superpowers",
       "repo": "https://github.com/obra/superpowers.git",
-      "paths": [{"source": "skills/brainstorming", "destination": "skills/workflow/superpowers/brainstorming", "mode": "tree"}, {"source": "skills/writing-plans", "destination": "skills/workflow/superpowers/writing-plans", "mode": "tree"}, {"source": "skills/executing-plans", "destination": "skills/workflow/superpowers/executing-plans", "mode": "tree"}, {"source": "skills/test-driven-development", "destination": "skills/workflow/superpowers/test-driven-development", "mode": "tree"}, {"source": "skills/systematic-debugging", "destination": "skills/workflow/superpowers/systematic-debugging", "mode": "tree"}, {"source": "skills/requesting-code-review", "destination": "skills/workflow/superpowers/requesting-code-review", "mode": "tree"}, {"source": "skills/receiving-code-review", "destination": "skills/workflow/superpowers/receiving-code-review", "mode": "tree"}, {"source": "skills/verification-before-completion", "destination": "skills/workflow/superpowers/verification-before-completion", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "skills/brainstorming",
+          "destination": "skills/workflow/superpowers/brainstorming",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/writing-plans",
+          "destination": "skills/workflow/superpowers/writing-plans",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/executing-plans",
+          "destination": "skills/workflow/superpowers/executing-plans",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/test-driven-development",
+          "destination": "skills/workflow/superpowers/test-driven-development",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/systematic-debugging",
+          "destination": "skills/workflow/superpowers/systematic-debugging",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/requesting-code-review",
+          "destination": "skills/workflow/superpowers/requesting-code-review",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/receiving-code-review",
+          "destination": "skills/workflow/superpowers/receiving-code-review",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/verification-before-completion",
+          "destination": "skills/workflow/superpowers/verification-before-completion",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/obra-superpowers-license"
     },
     {
       "id": "amelnagdy-guard-skills",
       "repo": "https://github.com/amElnagdy/guard-skills.git",
-      "paths": [{"source": "skills/clean-code-guard", "destination": "skills/quality/guard-skills/clean-code-guard", "mode": "tree"}, {"source": "skills/docs-guard", "destination": "skills/quality/guard-skills/docs-guard", "mode": "tree"}, {"source": "skills/test-guard", "destination": "skills/quality/guard-skills/test-guard", "mode": "tree"}, {"source": "skills/wp-guard", "destination": "skills/quality/guard-skills/wp-guard", "mode": "tree"}, {"source": "skills/woo-guard", "destination": "skills/quality/guard-skills/woo-guard", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "skills/clean-code-guard",
+          "destination": "skills/quality/guard-skills/clean-code-guard",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/docs-guard",
+          "destination": "skills/quality/guard-skills/docs-guard",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/test-guard",
+          "destination": "skills/quality/guard-skills/test-guard",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/wp-guard",
+          "destination": "skills/quality/guard-skills/wp-guard",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/woo-guard",
+          "destination": "skills/quality/guard-skills/woo-guard",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/amelnagdy-guard-skills-MIT.txt"
     },
     {
       "id": "amelnagdy-ui-review-loop",
       "repo": "https://github.com/amElnagdy/ui-review-loop.git",
-      "paths": [{"source": "SKILL.md", "destination": "skills/web/ui-review-loop/SKILL.md", "mode": "file"}, {"source": "assets", "destination": "skills/web/ui-review-loop/assets", "mode": "tree"}, {"source": "references", "destination": "skills/web/ui-review-loop/references", "mode": "tree"}, {"source": "scripts", "destination": "skills/web/ui-review-loop/scripts", "mode": "tree"}, {"source": "templates", "destination": "skills/web/ui-review-loop/templates", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "SKILL.md",
+          "destination": "skills/web/ui-review-loop/SKILL.md",
+          "mode": "file"
+        },
+        {
+          "source": "assets",
+          "destination": "skills/web/ui-review-loop/assets",
+          "mode": "tree"
+        },
+        {
+          "source": "references",
+          "destination": "skills/web/ui-review-loop/references",
+          "mode": "tree"
+        },
+        {
+          "source": "scripts",
+          "destination": "skills/web/ui-review-loop/scripts",
+          "mode": "tree"
+        },
+        {
+          "source": "templates",
+          "destination": "skills/web/ui-review-loop/templates",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/amelnagdy-ui-review-loop-Apache-2.0.txt"
     },
     {
       "id": "amelnagdy-review-skills",
       "repo": "https://github.com/amElnagdy/review-skills.git",
-      "paths": [{"source": "skills/debate-review", "destination": "skills/workflow/review-skills/debate-review", "mode": "tree"}, {"source": "skills/babysit-pr", "destination": "skills/workflow/review-skills/babysit-pr", "mode": "tree"}],
+      "paths": [
+        {
+          "source": "skills/debate-review",
+          "destination": "skills/workflow/review-skills/debate-review",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/babysit-pr",
+          "destination": "skills/workflow/review-skills/babysit-pr",
+          "mode": "tree"
+        }
+      ],
       "license_source": "LICENSE",
       "license_destination": "licenses/amelnagdy-review-skills-MIT.txt"
+    },
+    {
+      "id": "jakubkrehel-interface-skills",
+      "repo": "https://github.com/jakubkrehel/skills.git",
+      "paths": [
+        {
+          "source": "skills/better-interface",
+          "destination": "skills/web/jakub-better-interface",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/interface-review",
+          "destination": "skills/web/jakub-interface-review",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-ui",
+          "destination": "skills/web/jakub-better-ui",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-typography",
+          "destination": "skills/web/jakub-better-typography",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-colors",
+          "destination": "skills/web/jakub-better-colors",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-accessibility",
+          "destination": "skills/web/jakub-better-accessibility",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-layout",
+          "destination": "skills/web/jakub-better-layout",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/better-writing",
+          "destination": "skills/web/jakub-better-writing",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/jakubkrehel-skills-MIT"
+    },
+    {
+      "id": "wshobson-architecture-and-quality",
+      "repo": "https://github.com/wshobson/agents.git",
+      "paths": [
+        {
+          "source": "plugins/before-you-build/skills/before-you-build",
+          "destination": "skills/workflow/before-you-build",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/backend-development/skills/architecture-patterns",
+          "destination": "skills/architecture/architecture-patterns",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/documentation-generation/skills/architecture-decision-records",
+          "destination": "skills/architecture/architecture-decision-records",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/data-engineering/skills/data-quality-frameworks",
+          "destination": "skills/data/data-quality-frameworks",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/business-analytics/skills/data-storytelling",
+          "destination": "skills/data/data-storytelling",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/ui-design/skills/design-system-patterns",
+          "destination": "skills/web/design-system-patterns",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/ui-design/skills/interaction-design",
+          "destination": "skills/web/interaction-design",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/ui-design/skills/responsive-design",
+          "destination": "skills/web/responsive-design",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/ui-design/skills/visual-design-foundations",
+          "destination": "skills/web/visual-design-foundations",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/skill-forge-essentials/skills/visual-edit-precision",
+          "destination": "skills/web/visual-edit-precision",
+          "mode": "tree"
+        },
+        {
+          "source": "plugins/backend-development/skills/api-design-principles",
+          "destination": "skills/architecture/api-design-principles",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/wshobson-agents-MIT"
+    },
+    {
+      "id": "k-dense-data-analysis",
+      "repo": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
+      "paths": [
+        {
+          "source": "skills/exploratory-data-analysis",
+          "destination": "skills/data/exploratory-data-analysis",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/scientific-visualization",
+          "destination": "skills/data/scientific-visualization",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/statistical-analysis",
+          "destination": "skills/data/statistical-analysis",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE.md",
+      "license_destination": "licenses/k-dense-scientific-agent-skills-MIT.md"
     }
   ]
 }

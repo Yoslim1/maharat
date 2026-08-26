@@ -59,3 +59,47 @@
 ## Data
 
 Data Analytics Skills are currently reference-only because the checked upstream snapshot had no clear LICENSE file or GitHub license metadata. See `upstreams/data-analytics-skills.md` for the source and recommended skill names: `programmatic-eda`, `data-quality-audit`, `schema-mapper`, `query-validation`, `visualization-builder`, `dashboard-specification`, `insight-synthesis`, and `analysis-planning`.
+
+## Global design and UX additions
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Better Interface | `skills/web/jakub-better-interface` | مراجعة شاملة تجمع مجالات UX/UI في حكم واحد مرتب بالأدلة، مع تغطية الحالات المختلفة. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Interface Review | `skills/web/jakub-interface-review` | مراجعة التغييرات غير الملتزم بها أو الفرع أو Pull Request بدل مراجعة شاشة منفردة. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better Colors | `skills/web/jakub-better-colors` | بناء palettes وsemantic tokens وlight/dark themes وقياس contrast وOKLCH دون تخمين. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better Typography | `skills/web/jakub-better-typography` | اختيار الخطوط وtype scale وline-height وwrapping وtruncation وRTL-aware text behavior. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better Accessibility | `skills/web/jakub-better-accessibility` | فحص keyboard وscreen reader وfocus وARIA وhit areas وreduced motion والنماذج. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better Layout | `skills/web/jakub-better-layout` | تنظيم hierarchy وspacing وalignment وbreakpoints وcontainer queries وRTL والـadaptive layout. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better UI | `skills/web/jakub-better-ui` | صقل radius وshadow وmotion وmicro-interactions مع تفضيل الحل الأبسط. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Better Writing | `skills/web/jakub-better-writing` | كتابة نصوص الواجهة: الأزرار، الأخطاء، الإعدادات، empty states، والرسائل. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) |
+| Design System Patterns | `skills/web/design-system-patterns` | بناء design system قابل للتوسع بالتوكنز والـtheming وcomponent architecture. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Interaction Design | `skills/web/interaction-design` | تصميم micro-interactions وmotion وloading states وfeedback السلوكي. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Responsive Design | `skills/web/responsive-design` | بناء layouts مرنة بـcontainer queries وfluid typography وCSS Grid وmobile-first breakpoints. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Visual Design Foundations | `skills/web/visual-design-foundations` | تأسيس typography وcolor وspacing وiconography وvisual hierarchy. | [wshobson/agents](https://github.com/wshobson/agents) |
+
+## Global architecture and maintainability additions
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Before You Build | `skills/workflow/before-you-build` | pre-mortem صغير يحدد أعلى مخاطرة وأصغر validation قبل بناء ميزة أو منتج، حتى لا نكدّس خدمات بلا دليل حاجة. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Architecture Patterns | `skills/architecture/architecture-patterns` | Clean/Hexagonal Architecture وDDD وbounded contexts وحدود الاعتماديات، مع البدء من module قبل تقسيم الخدمات. | [wshobson/agents](https://github.com/wshobson/agents) |
+| API Design Principles | `skills/architecture/api-design-principles` | تصميم REST/GraphQL بعقود واضحة وحدود API مستقرة قبل إضافة خدمة أو integration جديدة. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Architecture Decision Records | `skills/architecture/architecture-decision-records` | توثيق سبب القرارات المعمارية وبدائلها وتكلفتها حتى لا تتكرر البنية أو تتضخم بلا مبرر. | [wshobson/agents](https://github.com/wshobson/agents) |
+
+## Global data and visualization additions
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Exploratory Data Analysis | `skills/data/exploratory-data-analysis` | EDA منضبط يحافظ على raw data، يراجع missingness/leakage/outliers، ويفصل الاستكشاف عن الاستدلال. | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Scientific Visualization | `skills/data/scientific-visualization` | رسوم دقيقة وميسّرة بـMatplotlib/Seaborn/Plotly، مع uncertainty وcontrast وexport planning. | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Statistical Analysis | `skills/data/statistical-analysis` | اختيار الاختبار، فحص الافتراضات، effect sizes، power، والـreporting بدل استنتاجات سطحية. | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |
+| Data Quality Frameworks | `skills/data/data-quality-frameworks` | data contracts وGreat Expectations وdbt tests لقواعد جودة البيانات. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Data Storytelling | `skills/data/data-storytelling` | تحويل البيانات إلى narrative ورسومات وسياق يساعد على اتخاذ القرار. | [wshobson/agents](https://github.com/wshobson/agents) |
+
+## Bounded improvement
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Bounded Self-Improvement | `skills/workflow/bounded-self-improvement` | تسجيل الدروس واقتراح تحسينات صغيرة مع evidence وapproval، دون تعديل إعدادات الوكيل أو المهارات تلقائيًا. | Authored for Maharat |
+| Self-Improving Agent | Reference only: `upstreams/self-improving-agent.md` | مرجع لأفكار memory curation وfeedback loops وregression detection، لكنه غير منسوخ لأن المصدر يعلن MIT + Commons Clause وGitHub API لا يثبت ترخيص إعادة التوزيع. | [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills/blob/main/engineering/self-improving-agent/SKILL.md) |
+| Visual Edit Precision | `skills/web/visual-edit-precision` | تعديلات بصرية دقيقة موجهة بلقطة شاشة أو annotation أو تحديد عنصر، مع الحفاظ على ما لم يطلب المستخدم تغييره. | [wshobson/agents](https://github.com/wshobson/agents) |

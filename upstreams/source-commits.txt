@@ -1,17 +1,18 @@
-
 # Upstream commit snapshots
-Drjacky__claude-android-ninja                baa6e883e9355945838a51ae628e3747dbe6c764
-Kotlin__kotlin-agent-skills                  08d7ad0d74a9a5a548287b2bd4926180fab56cac
-amElnagdy__guard-skills                       ffa26036b7b5e77b20b5d679304a703b6fd1a43d
-amElnagdy__review-skills                      bba12429419f77bed686f6754fa04bafaa1a18bf
-amElnagdy__ui-review-loop                     de1854621ac067d1cf9a81953813e217061af0c7
-android__skills                              aaca635061a4befdd3890d63c4a02963f2e8d925
-anthropics__claude-code                      1af51fd77b7e40017c1032249db75fe582d23283
-chrisbanes__skills                           948acbbd6c444d9aef46ef96fa981ea440e0cf0d
-hamen__material-3-skill                      14385f2bf3804d8779f8b4db2604211f1e70b4c1
-nextlevelbuilder__ui-ux-pro-max-skill        9f1824aa7bd87b7a2db8e19afd7fbe40d5f354e5
-nimrodfisher__data-analytics-skills          88498848c174ef162eba31fe5b6071faf02f8dc2
-obra__superpowers                            b36e0829c6d0140e93cfef2ca599b1b07d4a7797
-rcosteira79__android-skills                  0cdfc74ad89d5be0141807f6974d5ee37412d6f7
-skydoves__compose-performance-skills         1b32f81724c0d71fe9ef093ca44697f559fdab6e
-vercel-labs__agent-skills                    dd089a8c752c966dee8bf0f27cb625ba193ffd9e
+
+amelnagdy-guard-skills                           ffa26036b7b5e77b20b5d679304a703b6fd1a43d
+amelnagdy-review-skills                          5b748c654bb060ef6bf86d0e7ae123979082a88a
+amelnagdy-ui-review-loop                         de1854621ac067d1cf9a81953813e217061af0c7
+android-ninja                                    baa6e883e9355945838a51ae628e3747dbe6c764
+android-skills                                   aaca635061a4befdd3890d63c4a02963f2e8d925
+anthropic-frontend-design                        005c5dade90c2c59c88d819d8723e7b579addb5e
+chrisbanes-compose                               948acbbd6c444d9aef46ef96fa981ea440e0cf0d
+compose-performance-pack                         1b32f81724c0d71fe9ef093ca44697f559fdab6e
+jakubkrehel-interface-skills                     ca483852de23d48ab4f4ea71da37dad12bd70a95
+k-dense-data-analysis                            36d8f13a1e754618794bf42f417884940077b4ae
+kotlin-agent-skills                              08d7ad0d74a9a5a548287b2bd4926180fab56cac
+material-3                                       14385f2bf3804d8779f8b4db2604211f1e70b4c1
+rcosteira79-android                              0cdfc74ad89d5be0141807f6974d5ee37412d6f7
+superpowers                                      b36e0829c6d0140e93cfef2ca599b1b07d4a7797
+ui-ux-pro-max                                    e4f45473691e4b389519ee4bc359a3d6df666c26
+wshobson-architecture-and-quality                38e19c20d2b154510b0e624a2e3e186b19b5c527

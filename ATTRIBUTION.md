@@ -44,3 +44,26 @@ The following sources are linked but not copied because a clear redistributable 
 ## Redistribution rules
 
 Keep this file and the relevant license file beside any redistributed copy. Do not remove upstream copyright notices or attribution. Check the upstream repository and its current license before updating or shipping a copied skill in a commercial product. A public GitHub repository is not, by itself, a license to copy content.
+
+## Additional global skills
+
+| Local path | Upstream source | License evidence | Notes |
+|---|---|---|---|
+| `skills/web/jakub-*` | https://github.com/jakubkrehel/skills | `licenses/jakubkrehel-skills-MIT` | Eight modular interface skills covering holistic review, change review, UI polish, typography, colors, accessibility, layout, and UX writing. |
+| `skills/architecture/*` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Selected API, architecture, and ADR skills; microservices and monorepo skills were intentionally not copied. |
+| `skills/workflow/before-you-build` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Pre-build risk and validation skill to avoid premature services and features. |
+| `skills/web/design-system-patterns` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Design-system tokens, theming, and component architecture. |
+| `skills/web/interaction-design` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Interaction and motion guidance. |
+| `skills/web/responsive-design` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Responsive layout and adaptive breakpoints. |
+| `skills/web/visual-design-foundations` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | Visual hierarchy, typography, color, spacing, and iconography. |
+| `skills/data/*` | https://github.com/K-Dense-AI/scientific-agent-skills | `licenses/k-dense-scientific-agent-skills-MIT.md` | Three selected MIT skills: EDA, scientific visualization, and statistical analysis. |
+| `skills/workflow/bounded-self-improvement` | Authored for Maharat | `LICENSE` | New local skill; bounded proposal/evidence workflow, no upstream code copied. |
+
+## Reference-only global sources
+
+| Source | Reason not vendored | Local reference |
+|---|---|---|
+| https://github.com/plugin87/ux-ui-agent-skills | GitHub API returned no license metadata and no LICENSE file was present in the checked snapshot; README badge alone was not treated as sufficient redistribution evidence. | `docs/global-skill-selection-ar.md` |
+| https://github.com/borghei/Claude-Skills | The selected skill declares `MIT + Commons Clause` and repository metadata is `NOASSERTION`; unrestricted redistribution was not assumed. | `upstreams/self-improving-agent.md` |
+
+| `skills/web/visual-edit-precision` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | تعديلات بصرية دقيقة موجهة بالصور والـannotations؛ لا تشغّل أدوات المصدر تلقائيًا. |
