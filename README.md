@@ -57,3 +57,22 @@ bash scripts/validate-maharat.sh
 ## المراجع
 
 المصادر الأساسية هي [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)، [jakubkrehel/skills](https://github.com/jakubkrehel/skills)، [wshobson/agents](https://github.com/wshobson/agents)، و[K-Dense scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)، إلى جانب [Android Skills الرسمي](https://github.com/android/skills)، [Material 3 Skill](https://github.com/hamen/material-3-skill)، [Chris Banes Skills](https://github.com/chrisbanes/skills)، [Anthropic Frontend Design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design)، [Superpowers](https://github.com/obra/superpowers)، [Kotlin Agent Skills](https://github.com/Kotlin/kotlin-agent-skills)، [Android Ninja](https://github.com/Drjacky/claude-android-ninja)، [Compose Performance Skills](https://github.com/skydoves/compose-performance-skills)، [amElnagdy guard-skills](https://github.com/amElnagdy/guard-skills)، [amElnagdy ui-review-loop](https://github.com/amElnagdy/ui-review-loop)، و[amElnagdy review-skills](https://github.com/amElnagdy/review-skills). راجع `CATALOG.md` و`ATTRIBUTION.md` للقائمة الكاملة وحالة كل مصدر، و`docs/global-skill-selection-ar.md` لشرح الاختيارات العالمية.
+
+## تحديث OpenCode تلقائيًا
+
+تحديث GitHub Actions للمصادر لا يغيّر مجلد OpenCode على جهازك مباشرة. لتحديث OpenCode تلقائيًا من آخر نسخة مدمجة في Maharat، استخدم `scripts/update-opencode-skills.sh`. السكربت يرفض العمل إذا كان Maharat يحتوي تغييرات محلية، يسحب الفرع المحدد بـ`MAHARAT_BRANCH`، يشغّل الفحص، ثم ينسخ كل مجلد يحتوي `SKILL.md` إلى `~/.config/opencode/skills` أو إلى المسار المحدد في `OPENCODE_SKILLS_DIR`.
+
+للتشغيل اليدوي:
+
+```bash
+cd ~/maharat
+bash scripts/update-opencode-skills.sh
+```
+
+ولتشغيله يوميًا عبر cron على الجهاز الذي يستخدم OpenCode:
+
+```bash
+(crontab -l 2>/dev/null; echo '17 4 * * * cd /root/maharat && /bin/bash scripts/update-opencode-skills.sh >> /root/.cache/maharat-opencode-update.log 2>&1') | crontab -
+```
+
+إذا كان المستخدم أو المسار مختلفًا، غيّر `/root/maharat` وملف السجل. هذا التحديث يثبت آخر نسخة موجودة في `master` فقط؛ أما تحديث المصادر الأصلية فيمر أولًا عبر GitHub Actions وPull Request، ولا يدخل إلى `master` إلا بعد المراجعة والدمج. بعد التحديث، أعد تشغيل OpenCode إذا كانت الجلسة الحالية لا تكتشف المهارات الجديدة.
