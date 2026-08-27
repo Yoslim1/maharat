@@ -57,6 +57,9 @@ skills/android/skydoves-compose-performance/stability/stabilizing-compose-types/
 skills/android/skydoves-compose-performance/stability/understanding-stability-inference/SKILL.md
 skills/android/skydoves-compose-performance/stability/using-stability-analyzer-ide-plugin/SKILL.md
 skills/android/skydoves-compose-performance/stability/visualizing-recomposition-cascades/SKILL.md
+skills/architecture/addyosmani/api-and-interface-design/SKILL.md
+skills/architecture/addyosmani/deprecation-and-migration/SKILL.md
+skills/architecture/addyosmani/documentation-and-adrs/SKILL.md
 skills/architecture/api-design-principles/SKILL.md
 skills/architecture/architecture-decision-records/SKILL.md
 skills/architecture/architecture-patterns/SKILL.md
@@ -71,6 +74,8 @@ skills/kotlin/jetbrains/kotlin-tooling-cocoapods-spm-migration/SKILL.md
 skills/kotlin/jetbrains/kotlin-tooling-immutable-collections-0-5-x-migration/SKILL.md
 skills/kotlin/jetbrains/kotlin-tooling-java-to-kotlin/SKILL.md
 skills/kotlin/jetbrains/kotlin-tooling-native-build-performance/SKILL.md
+skills/quality/addyosmani/code-simplification/SKILL.md
+skills/quality/addyosmani/security-and-hardening/SKILL.md
 skills/quality/guard-skills/clean-code-guard/SKILL.md
 skills/quality/guard-skills/docs-guard/SKILL.md
 skills/quality/guard-skills/test-guard/SKILL.md
@@ -92,6 +97,7 @@ skills/web/ui-review-loop/SKILL.md
 skills/web/ui-ux-pro-max/SKILL.md
 skills/web/visual-design-foundations/SKILL.md
 skills/web/visual-edit-precision/SKILL.md
+skills/workflow/addyosmani/context-engineering/SKILL.md
 skills/workflow/before-you-build/SKILL.md
 skills/workflow/bounded-self-improvement/SKILL.md
 skills/workflow/review-skills/babysit-pr/SKILL.md

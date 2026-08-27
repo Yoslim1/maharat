@@ -31,6 +31,8 @@
 | Skill | Local path | Purpose | Upstream |
 |---|---|---|---|
 | Clean Code Guard | `skills/quality/guard-skills/clean-code-guard` | يراجع الكود المنتج أو المعدل ضد Clean Code وSOLID وDRY/KISS/YAGNI وأخطاء الوكلاء الشائعة. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
+| Code Simplification | `skills/quality/addyosmani/code-simplification` | يبسط الكود ويحافظ على السلوك نفسه؛ مكمل لـClean Code Guard وليس بديلًا عن الاختبارات. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Security and Hardening | `skills/quality/addyosmani/security-and-hardening` | threat modeling وOWASP وحماية الإدخال والمصادقة والأسرار وميزات الذكاء الاصطناعي. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Test Guard | `skills/quality/guard-skills/test-guard` | يراجع الاختبارات ضد mock abuse والاختبارات المكررة والاختبارات التي لا تلتقط عيوبًا حقيقية. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
 | Docs Guard | `skills/quality/guard-skills/docs-guard` | يتحقق من أن README وAPI docs والأمثلة متوافقة مع الكود وغير مبنية على claims غير قابلة للتحقق. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
 | WordPress Guard | `skills/quality/guard-skills/wp-guard` | يراجع sanitization وescaping وnonces والصلاحيات والاستعلامات والترجمة في WordPress. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
@@ -55,6 +57,7 @@
 | Debugging | `skills/workflow/superpowers/systematic-debugging` | Trace symptoms to root causes systematically. | [obra/superpowers](https://github.com/obra/superpowers) |
 | Code review | `skills/workflow/superpowers/requesting-code-review` | Request structured review before delivery. | [obra/superpowers](https://github.com/obra/superpowers) |
 | Verification | `skills/workflow/superpowers/verification-before-completion` | Prove the result before claiming completion. | [obra/superpowers](https://github.com/obra/superpowers) |
+| Context Engineering | `skills/workflow/addyosmani/context-engineering` | تنظيم سياق المشروع والقواعد والملفات ذات الصلة حتى لا يفيض السياق أو يخمّن الوكيل conventions غير مكتوبة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 
 ## Data
 
@@ -84,7 +87,10 @@ Data Analytics Skills are currently reference-only because the checked upstream 
 | Before You Build | `skills/workflow/before-you-build` | pre-mortem صغير يحدد أعلى مخاطرة وأصغر validation قبل بناء ميزة أو منتج، حتى لا نكدّس خدمات بلا دليل حاجة. | [wshobson/agents](https://github.com/wshobson/agents) |
 | Architecture Patterns | `skills/architecture/architecture-patterns` | Clean/Hexagonal Architecture وDDD وbounded contexts وحدود الاعتماديات، مع البدء من module قبل تقسيم الخدمات. | [wshobson/agents](https://github.com/wshobson/agents) |
 | API Design Principles | `skills/architecture/api-design-principles` | تصميم REST/GraphQL بعقود واضحة وحدود API مستقرة قبل إضافة خدمة أو integration جديدة. | [wshobson/agents](https://github.com/wshobson/agents) |
+| API and Interface Design | `skills/architecture/addyosmani/api-and-interface-design` | تصميم عقود مستقرة للـAPI وحدود الموديولات وواجهات المكونات، مع تقليل قابلية إساءة الاستخدام. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Architecture Decision Records | `skills/architecture/architecture-decision-records` | توثيق سبب القرارات المعمارية وبدائلها وتكلفتها حتى لا تتكرر البنية أو تتضخم بلا مبرر. | [wshobson/agents](https://github.com/wshobson/agents) |
+| Documentation and ADRs | `skills/architecture/addyosmani/documentation-and-adrs` | توثيق أسباب القرارات والتغييرات العامة والسياق الذي يحتاجه الفريق والوكيل مستقبلًا. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Deprecation and Migration | `skills/architecture/addyosmani/deprecation-and-migration` | تخطيط إزالة الأنظمة أو الـAPIs القديمة ونقل المستخدمين بأمان؛ مكمل لمهارات ترحيل Android. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 
 ## Global data and visualization additions
 

@@ -464,6 +464,44 @@
       ],
       "license_source": "LICENSE.md",
       "license_destination": "licenses/k-dense-scientific-agent-skills-MIT.md"
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "repo": "https://github.com/addyosmani/agent-skills.git",
+      "paths": [
+        {
+          "source": "skills/code-simplification",
+          "destination": "skills/quality/addyosmani/code-simplification",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/api-and-interface-design",
+          "destination": "skills/architecture/addyosmani/api-and-interface-design",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/deprecation-and-migration",
+          "destination": "skills/architecture/addyosmani/deprecation-and-migration",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/documentation-and-adrs",
+          "destination": "skills/architecture/addyosmani/documentation-and-adrs",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/security-and-hardening",
+          "destination": "skills/quality/addyosmani/security-and-hardening",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/context-engineering",
+          "destination": "skills/workflow/addyosmani/context-engineering",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/addyosmani-agent-skills-MIT"
     }
   ]
 }

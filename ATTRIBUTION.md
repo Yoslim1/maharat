@@ -19,6 +19,12 @@
 | `skills/android/skydoves-compose-performance` | https://github.com/skydoves/compose-performance-skills | `licenses/skydoves-compose-performance-Apache-2.0` | Compose performance-specific skills and audit workflow. |
 | `skills/kotlin/jetbrains` | https://github.com/Kotlin/kotlin-agent-skills | `licenses/kotlin-agent-skills-Apache-2.0` | Kotlin tooling and migration skills from the Kotlin incubator repository. |
 | `skills/workflow/superpowers/*` | https://github.com/obra/superpowers | `licenses/obra-superpowers-license` | Selected planning, TDD, debugging, review, and verification skills. |
+| `skills/architecture/addyosmani/api-and-interface-design` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected stable API and module-interface design skill. |
+| `skills/architecture/addyosmani/deprecation-and-migration` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected migration and deprecation planning skill. |
+| `skills/architecture/addyosmani/documentation-and-adrs` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected documentation and decision-record skill. |
+| `skills/quality/addyosmani/code-simplification` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected behavior-preserving code simplification skill. |
+| `skills/quality/addyosmani/security-and-hardening` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected OWASP, threat-modeling, secrets, and hardening skill. |
+| `skills/workflow/addyosmani/context-engineering` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected context curation and project-rules skill. |
 
 ## Additional vendored skills from amElnagdy
 
