@@ -25,6 +25,14 @@
 | `skills/quality/addyosmani/code-simplification` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected behavior-preserving code simplification skill. |
 | `skills/quality/addyosmani/security-and-hardening` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected OWASP, threat-modeling, secrets, and hardening skill. |
 | `skills/workflow/addyosmani/context-engineering` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Selected context curation and project-rules skill. |
+| `skills/web/addyosmani/frontend-ui-engineering` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Production-quality frontend implementation, accessibility, responsiveness, and interaction. |
+| `skills/web/addyosmani/browser-testing-with-devtools` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Browser runtime inspection with Chrome DevTools MCP. |
+| `skills/workflow/addyosmani/ci-cd-and-automation` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | CI quality gates and deployment pipeline guidance. |
+| `skills/workflow/addyosmani/git-workflow-and-versioning` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Branching, atomic commits, versioning, and changelogs. |
+| `skills/workflow/addyosmani/observability-and-instrumentation` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Logging, metrics, tracing, and production alerting guidance. |
+| `skills/workflow/addyosmani/incremental-implementation` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Small, verifiable implementation slices for multi-file changes. |
+| `skills/workflow/addyosmani/source-driven-development` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Official-source-first implementation decisions. |
+| `skills/quality/addyosmani/performance-optimization` | https://github.com/addyosmani/agent-skills | `licenses/addyosmani-agent-skills-MIT` | Measurement-driven frontend, backend, query, and database performance work. |
 
 ## Additional vendored skills from amElnagdy
 

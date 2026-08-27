@@ -498,6 +498,46 @@
           "source": "skills/context-engineering",
           "destination": "skills/workflow/addyosmani/context-engineering",
           "mode": "tree"
+        },
+        {
+          "source": "skills/browser-testing-with-devtools",
+          "destination": "skills/web/addyosmani/browser-testing-with-devtools",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/frontend-ui-engineering",
+          "destination": "skills/web/addyosmani/frontend-ui-engineering",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/ci-cd-and-automation",
+          "destination": "skills/workflow/addyosmani/ci-cd-and-automation",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/git-workflow-and-versioning",
+          "destination": "skills/workflow/addyosmani/git-workflow-and-versioning",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/observability-and-instrumentation",
+          "destination": "skills/workflow/addyosmani/observability-and-instrumentation",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/performance-optimization",
+          "destination": "skills/quality/addyosmani/performance-optimization",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/incremental-implementation",
+          "destination": "skills/workflow/addyosmani/incremental-implementation",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/source-driven-development",
+          "destination": "skills/workflow/addyosmani/source-driven-development",
+          "mode": "tree"
         }
       ],
       "license_source": "LICENSE",

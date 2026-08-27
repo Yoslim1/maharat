@@ -1,6 +1,6 @@
 
 # Upstream commit snapshots
-addyosmani-agent-skills                          5a5ea45e806f82273549fd85e60adb95d55f510d
+addyosmani-agent-skills                          7cb7a20bb38b199728d456999c725a0488490ab6
 amelnagdy-guard-skills                           ffa26036b7b5e77b20b5d679304a703b6fd1a43d
 amelnagdy-review-skills                          5b748c654bb060ef6bf86d0e7ae123979082a88a
 amelnagdy-ui-review-loop                         de1854621ac067d1cf9a81953813e217061af0c7

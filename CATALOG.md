@@ -6,6 +6,8 @@
 |---|---|---|---|
 | UI UX Pro Max | `skills/web/ui-ux-pro-max` | Design-system generation, UI styles, colors, typography, UX rules, responsive guidance, and chart recommendations. | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | Anthropic Frontend Design | `skills/web/anthropic-frontend-design` | Distinctive, production-grade frontend direction with deliberate visual identity and motion. | [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) |
+| Frontend UI Engineering | `skills/web/addyosmani/frontend-ui-engineering` | تنفيذ واجهات production-quality مع accessibility وresponsive behavior وحالات loading/error وتجنب مظهر AI العام. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Browser Testing with DevTools | `skills/web/addyosmani/browser-testing-with-devtools` | فحص DOM وconsole وnetwork والأداء وaccessibility داخل المتصفح الحقيقي عبر Chrome DevTools MCP. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Vercel web-design-guidelines | Reference only: `upstreams/vercel-agent-skills.md` | Accessibility, focus, forms, images, animation, performance, navigation, dark mode, touch, and i18n review. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 | Vercel React best practices | Reference only: `upstreams/vercel-agent-skills.md` | React/Next.js waterfalls, bundle size, data fetching, and rerender optimization. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
 
@@ -33,6 +35,7 @@
 | Clean Code Guard | `skills/quality/guard-skills/clean-code-guard` | يراجع الكود المنتج أو المعدل ضد Clean Code وSOLID وDRY/KISS/YAGNI وأخطاء الوكلاء الشائعة. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
 | Code Simplification | `skills/quality/addyosmani/code-simplification` | يبسط الكود ويحافظ على السلوك نفسه؛ مكمل لـClean Code Guard وليس بديلًا عن الاختبارات. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Security and Hardening | `skills/quality/addyosmani/security-and-hardening` | threat modeling وOWASP وحماية الإدخال والمصادقة والأسرار وميزات الذكاء الاصطناعي. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Performance Optimization | `skills/quality/addyosmani/performance-optimization` | تحسين frontend وbackend والاستعلامات وقواعد البيانات بعد القياس، وليس التخمين. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Test Guard | `skills/quality/guard-skills/test-guard` | يراجع الاختبارات ضد mock abuse والاختبارات المكررة والاختبارات التي لا تلتقط عيوبًا حقيقية. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
 | Docs Guard | `skills/quality/guard-skills/docs-guard` | يتحقق من أن README وAPI docs والأمثلة متوافقة مع الكود وغير مبنية على claims غير قابلة للتحقق. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
 | WordPress Guard | `skills/quality/guard-skills/wp-guard` | يراجع sanitization وescaping وnonces والصلاحيات والاستعلامات والترجمة في WordPress. | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) |
@@ -58,6 +61,11 @@
 | Code review | `skills/workflow/superpowers/requesting-code-review` | Request structured review before delivery. | [obra/superpowers](https://github.com/obra/superpowers) |
 | Verification | `skills/workflow/superpowers/verification-before-completion` | Prove the result before claiming completion. | [obra/superpowers](https://github.com/obra/superpowers) |
 | Context Engineering | `skills/workflow/addyosmani/context-engineering` | تنظيم سياق المشروع والقواعد والملفات ذات الصلة حتى لا يفيض السياق أو يخمّن الوكيل conventions غير مكتوبة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| CI/CD and Automation | `skills/workflow/addyosmani/ci-cd-and-automation` | ربط lint وtypecheck والاختبارات والبناء وفحوص الأمان كـquality gates قبل الدمج والنشر. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Git Workflow and Versioning | `skills/workflow/addyosmani/git-workflow-and-versioning` | فروع قصيرة وatomic commits وversioning وchangelog وإدارة تغييرات قابلة للمراجعة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Observability and Instrumentation | `skills/workflow/addyosmani/observability-and-instrumentation` | logging وmetrics وtracing وalerting حتى يمكن تشخيص سلوك الإنتاج بالأدلة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Incremental Implementation | `skills/workflow/addyosmani/incremental-implementation` | تقسيم التغييرات الكبيرة إلى شرائح صغيرة قابلة للبناء والاختبار والمراجعة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
+| Source-Driven Development | `skills/workflow/addyosmani/source-driven-development` | الاعتماد على التوثيق الرسمي والمصادر الموثوقة قبل اتخاذ قرارات تنفيذية. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 
 ## Data
 
