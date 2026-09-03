@@ -548,13 +548,93 @@
       "repo": "https://github.com/amElnagdy/delegate-skills.git",
       "paths": [
         {
+          "source": "skills/agy-delegate",
+          "destination": "skills/workflow/delegate-skills/agy-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/aider-delegate",
+          "destination": "skills/workflow/delegate-skills/aider-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/claude-delegate",
+          "destination": "skills/workflow/delegate-skills/claude-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/cline-delegate",
+          "destination": "skills/workflow/delegate-skills/cline-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/codex-delegate",
+          "destination": "skills/workflow/delegate-skills/codex-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/commandcode-delegate",
+          "destination": "skills/workflow/delegate-skills/commandcode-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/copilot-delegate",
+          "destination": "skills/workflow/delegate-skills/copilot-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/cursor-delegate",
+          "destination": "skills/workflow/delegate-skills/cursor-delegate",
+          "mode": "tree"
+        },
+        {
           "source": "skills/delegate-setup",
           "destination": "skills/workflow/delegate-skills/delegate-setup",
           "mode": "tree"
         },
         {
+          "source": "skills/grok-delegate",
+          "destination": "skills/workflow/delegate-skills/grok-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/kimi-delegate",
+          "destination": "skills/workflow/delegate-skills/kimi-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/omp-delegate",
+          "destination": "skills/workflow/delegate-skills/omp-delegate",
+          "mode": "tree"
+        },
+        {
           "source": "skills/opencode-delegate",
           "destination": "skills/workflow/delegate-skills/opencode-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/pi-delegate",
+          "destination": "skills/workflow/delegate-skills/pi-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/qoder-delegate",
+          "destination": "skills/workflow/delegate-skills/qoder-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/vibe-delegate",
+          "destination": "skills/workflow/delegate-skills/vibe-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/warp-delegate",
+          "destination": "skills/workflow/delegate-skills/warp-delegate",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/zcode-delegate",
+          "destination": "skills/workflow/delegate-skills/zcode-delegate",
           "mode": "tree"
         }
       ],

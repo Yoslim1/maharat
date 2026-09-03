@@ -43,6 +43,7 @@
 | `skills/workflow/review-skills/*` | https://github.com/amElnagdy/review-skills | `licenses/amelnagdy-review-skills-MIT.txt` | Debate-review and babysit-pr. Requires authenticated forge CLI and explicit operational approval before posting. |
 | `skills/workflow/delegate-skills/delegate-setup` | https://github.com/amElnagdy/delegate-skills | `licenses/amelnagdy-delegate-skills-MIT` | Discovers implementer CLIs and proposes delegation lanes; writes configuration only after explicit approval. |
 | `skills/workflow/delegate-skills/opencode-delegate` | https://github.com/amElnagdy/delegate-skills | `licenses/amelnagdy-delegate-skills-MIT` | Dispatches bounded work to OpenCode and reviews the result; its relay can spawn a CLI and read/write a target worktree, so use only with an explicit approved brief and review. |
+| `skills/workflow/delegate-skills/{agy,aider,claude,cline,codex,commandcode,copilot,cursor,grok,kimi,omp,pi,qoder,vibe,warp,zcode}-delegate` | https://github.com/amElnagdy/delegate-skills | `licenses/amelnagdy-delegate-skills-MIT` | CLI-specific delegation skills. Each requires its own CLI to be installed and authenticated; use bounded briefs, review diffs and gates, and never assume availability from installation alone. |
 
 ## Reference-only sources
 
@@ -55,7 +56,7 @@ The following sources are linked but not copied because a clear redistributable 
 
 ## Operational safety notes
 
-`skills/web/ui-review-loop` must be run with synthetic data or explicit redaction planning because video pixels are not redacted. `skills/workflow/review-skills` can post comments and resolve threads through the user's forge account; keep it in an advanced category and preview with dry-run where available. `skills/workflow/delegate-skills/opencode-delegate` can spawn the OpenCode CLI and operate on a target worktree; never put secrets or personal data in a brief, never delegate an unbounded task, and review the diff and project gates before committing. `skills/workflow/delegate-skills/delegate-setup` must show the proposed lane table and full JSON and must write configuration only after explicit approval. `skills/quality/guard-skills` are review lenses and do not replace project tests, linters, or security review.
+`skills/web/ui-review-loop` must be run with synthetic data or explicit redaction planning because video pixels are not redacted. `skills/workflow/review-skills` can post comments and resolve threads through the user's forge account; keep it in an advanced category and preview with dry-run where available. `skills/workflow/delegate-skills/opencode-delegate` and the CLI-specific delegation skills can spawn external CLIs and operate on a target worktree; never put secrets or personal data in a brief, never delegate an unbounded task, and review the diff and project gates before committing. `skills/workflow/delegate-skills/delegate-setup` must show the proposed lane table and full JSON and must write configuration only after explicit approval. Skills for unavailable or unauthenticated CLIs remain installed but must not be invoked until the prerequisite is confirmed. `skills/quality/guard-skills` are review lenses and do not replace project tests, linters, or security review.
 
 ## Redistribution rules
 

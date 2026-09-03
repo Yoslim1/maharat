@@ -73,8 +73,9 @@
 |---|---|---|---|
 | Delegate Setup | `skills/workflow/delegate-skills/delegate-setup` | اكتشاف أدوات التنفيذ، اقتراح lanes، وكتابة إعداد delegation فقط بعد موافقة صريحة. | [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) |
 | OpenCode Delegate | `skills/workflow/delegate-skills/opencode-delegate` | إرسال مهمة محددة إلى OpenCode، قراءة النتيجة، مراجعة الـdiff، ثم ترك commit للمنسق بعد التحقق. | [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) |
+| CLI-specific delegates | `skills/workflow/delegate-skills/{agy,aider,claude,cline,codex,commandcode,copilot,cursor,grok,kimi,omp,pi,qoder,vibe,warp,zcode}-delegate` | Delegation إلى CLI محدد؛ لا تُستخدم إلا إذا كان الـCLI مثبتًا ومصادقًا عليه، مع brief محدود ومراجعة للنتيجة. | [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) |
 
-استخدم هذه المهارات للـdelegation المتعمد فقط؛ لا تشغل relay أو تغيّر lane config تلقائيًا، ولا تضع أسرارًا أو بيانات شخصية داخل brief.
+استخدم هذه المهارات للـdelegation المتعمد فقط؛ لا تشغل relay أو تغيّر lane config تلقائيًا، ولا تضع أسرارًا أو بيانات شخصية داخل brief. المجموعة الكاملة تحتوي على 18 مهارة، منها مهارة الإعداد، ومهارة OpenCode، و16 مهارة مرتبطة بأدوات CLI مختلفة.
 
 ## Data
 
