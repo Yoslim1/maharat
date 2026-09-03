@@ -67,6 +67,15 @@
 | Incremental Implementation | `skills/workflow/addyosmani/incremental-implementation` | تقسيم التغييرات الكبيرة إلى شرائح صغيرة قابلة للبناء والاختبار والمراجعة. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | Source-Driven Development | `skills/workflow/addyosmani/source-driven-development` | الاعتماد على التوثيق الرسمي والمصادر الموثوقة قبل اتخاذ قرارات تنفيذية. | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 
+## Delegation and orchestration
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Delegate Setup | `skills/workflow/delegate-skills/delegate-setup` | اكتشاف أدوات التنفيذ، اقتراح lanes، وكتابة إعداد delegation فقط بعد موافقة صريحة. | [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) |
+| OpenCode Delegate | `skills/workflow/delegate-skills/opencode-delegate` | إرسال مهمة محددة إلى OpenCode، قراءة النتيجة، مراجعة الـdiff، ثم ترك commit للمنسق بعد التحقق. | [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) |
+
+استخدم هذه المهارات للـdelegation المتعمد فقط؛ لا تشغل relay أو تغيّر lane config تلقائيًا، ولا تضع أسرارًا أو بيانات شخصية داخل brief.
+
 ## Data
 
 Data Analytics Skills are currently reference-only because the checked upstream snapshot had no clear LICENSE file or GitHub license metadata. See `upstreams/data-analytics-skills.md` for the source and recommended skill names: `programmatic-eda`, `data-quality-audit`, `schema-mapper`, `query-validation`, `visualization-builder`, `dashboard-specification`, `insight-synthesis`, and `analysis-planning`.

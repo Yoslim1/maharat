@@ -542,6 +542,24 @@
       ],
       "license_source": "LICENSE",
       "license_destination": "licenses/addyosmani-agent-skills-MIT"
+    },
+    {
+      "id": "amelnagdy-delegate-skills",
+      "repo": "https://github.com/amElnagdy/delegate-skills.git",
+      "paths": [
+        {
+          "source": "skills/delegate-setup",
+          "destination": "skills/workflow/delegate-skills/delegate-setup",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/opencode-delegate",
+          "destination": "skills/workflow/delegate-skills/opencode-delegate",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/amelnagdy-delegate-skills-MIT"
     }
   ]
 }

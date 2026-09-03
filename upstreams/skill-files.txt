@@ -108,6 +108,8 @@ skills/workflow/addyosmani/observability-and-instrumentation/SKILL.md
 skills/workflow/addyosmani/source-driven-development/SKILL.md
 skills/workflow/before-you-build/SKILL.md
 skills/workflow/bounded-self-improvement/SKILL.md
+skills/workflow/delegate-skills/delegate-setup/SKILL.md
+skills/workflow/delegate-skills/opencode-delegate/SKILL.md
 skills/workflow/review-skills/babysit-pr/SKILL.md
 skills/workflow/review-skills/debate-review/SKILL.md
 skills/workflow/superpowers/brainstorming/SKILL.md
