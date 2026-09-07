@@ -1,20 +1,20 @@
-
 # Upstream commit snapshots
-addyosmani-agent-skills                          7cb7a20bb38b199728d456999c725a0488490ab6
+
+addyosmani-agent-skills                          48cb1168aeaaa70dfc2bbf709eddfa2a8ed8129a
 amelnagdy-delegate-skills                        b781ee2e23089630e2fbee1cfd6174afe4edeb76
 amelnagdy-guard-skills                           ffa26036b7b5e77b20b5d679304a703b6fd1a43d
 amelnagdy-review-skills                          5b748c654bb060ef6bf86d0e7ae123979082a88a
 amelnagdy-ui-review-loop                         de1854621ac067d1cf9a81953813e217061af0c7
 android-ninja                                    baa6e883e9355945838a51ae628e3747dbe6c764
-android-skills                                   aaca635061a4befdd3890d63c4a02963f2e8d925
-anthropic-frontend-design                        005c5dade90c2c59c88d819d8723e7b579addb5e
-chrisbanes-compose                               948acbbd6c444d9aef46ef96fa981ea440e0cf0d
+android-skills                                   725364add95396448b0c91c585265dbaf1c36987
+anthropic-frontend-design                        ab9b2cf7bb9e4f98ff264c07a22e46d83c29c558
+chrisbanes-compose                               2db11bb412254246bf0a5f6e5e320177107a7c53
 compose-performance-pack                         1b32f81724c0d71fe9ef093ca44697f559fdab6e
-jakubkrehel-interface-skills                     ca483852de23d48ab4f4ea71da37dad12bd70a95
-k-dense-data-analysis                            36d8f13a1e754618794bf42f417884940077b4ae
+jakubkrehel-interface-skills                     267330e1adfc66a718fb65fa6918c1f06d0a689e
+k-dense-data-analysis                            1e5eeffbdad3749125afe7ab48a39694e27f181c
 kotlin-agent-skills                              08d7ad0d74a9a5a548287b2bd4926180fab56cac
 material-3                                       14385f2bf3804d8779f8b4db2604211f1e70b4c1
 rcosteira79-android                              0cdfc74ad89d5be0141807f6974d5ee37412d6f7
 superpowers                                      b36e0829c6d0140e93cfef2ca599b1b07d4a7797
-ui-ux-pro-max                                    e4f45473691e4b389519ee4bc359a3d6df666c26
-wshobson-architecture-and-quality                38e19c20d2b154510b0e624a2e3e186b19b5c527
+ui-ux-pro-max                                    4aad0584d92131626b16d4ff4d77f0455385013c
+wshobson-architecture-and-quality                a30778f8c4e6b0a87567941b7cca4f534bf642b6
