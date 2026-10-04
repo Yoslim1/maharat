@@ -127,3 +127,17 @@ Data Analytics Skills are currently reference-only because the checked upstream 
 | Bounded Self-Improvement | `skills/workflow/bounded-self-improvement` | تسجيل الدروس واقتراح تحسينات صغيرة مع evidence وapproval، دون تعديل إعدادات الوكيل أو المهارات تلقائيًا. | Authored for Maharat |
 | Self-Improving Agent | Reference only: `upstreams/self-improving-agent.md` | مرجع لأفكار memory curation وfeedback loops وregression detection، لكنه غير منسوخ لأن المصدر يعلن MIT + Commons Clause وGitHub API لا يثبت ترخيص إعادة التوزيع. | [borghei/Claude-Skills](https://github.com/borghei/Claude-Skills/blob/main/engineering/self-improving-agent/SKILL.md) |
 | Visual Edit Precision | `skills/web/visual-edit-precision` | تعديلات بصرية دقيقة موجهة بلقطة شاشة أو annotation أو تحديد عنصر، مع الحفاظ على ما لم يطلب المستخدم تغييره. | [wshobson/agents](https://github.com/wshobson/agents) |
+
+
+## Phase 1 selected additions
+
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Skill Judge | `skills/quality/softaworks/skill-judge` | تقييم جودة SKILL.md والمحفزات والنطاق والسلامة؛ استخدمه report-only قبل تعديل أي مهارة. | [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) |
+| Agent MD Refactor | `skills/workflow/softaworks/agent-md-refactor` | مراجعة ملفات AGENTS.md وتقليل التكرار؛ لا يسمح بإضعاف قواعد الأمان أو CI. | [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) |
+| Reducing Entropy | `skills/quality/softaworks/reducing-entropy` | اكتشاف التكرار والتعقيد غير الضروري؛ راجع الحذف المقترح قبل تطبيقه. | [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) |
+| QA Test Planner | `skills/quality/softaworks/qa-test-planner` | إنشاء خطط QA وregression cases؛ لا يحل محل اختبارات CI الفعلية. | [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) |
+| Compose Expert | `skills/android/aldefy/compose-expert` | إرشادات Compose موثقة بمراجع، وتشمل state وnavigation وperformance وaccessibility وpaging. استخدم routing انتقائيًا لأن التغطية تشمل KMP وTV. | [aldefy/compose-skill](https://github.com/aldefy/compose-skill) |
+| UX Writing | `skills/web/content-designer/ux-writing` | كتابة نصوص الواجهة ورسائل الخطأ وonboarding وempty states؛ إنجليزية أولًا وليست سياسة عربية تلقائية. | [content-designer/ux-writing-skill](https://github.com/content-designer/ux-writing-skill) |
+
+All six are added as skills only. They do not install agents, tools, bundles, or evals, and they must be selected on demand rather than loaded for every task.

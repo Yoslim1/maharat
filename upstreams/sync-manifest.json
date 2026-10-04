@@ -640,6 +640,80 @@
       ],
       "license_source": "LICENSE",
       "license_destination": "licenses/amelnagdy-delegate-skills-MIT"
+    },
+    {
+      "id": "softaworks-agent-toolkit-selected",
+      "repo": "https://github.com/softaworks/agent-toolkit.git",
+      "paths": [
+        {
+          "source": "skills/skill-judge",
+          "destination": "skills/quality/softaworks/skill-judge",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/agent-md-refactor",
+          "destination": "skills/workflow/softaworks/agent-md-refactor",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/reducing-entropy",
+          "destination": "skills/quality/softaworks/reducing-entropy",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/qa-test-planner",
+          "destination": "skills/quality/softaworks/qa-test-planner",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/softaworks-agent-toolkit-MIT"
+    },
+    {
+      "id": "aldefy-compose-skill",
+      "repo": "https://github.com/aldefy/compose-skill.git",
+      "paths": [
+        {
+          "source": "skills/compose-expert/SKILL.md",
+          "destination": "skills/android/aldefy/compose-expert/SKILL.md",
+          "mode": "file"
+        },
+        {
+          "source": "skills/compose-expert/references",
+          "destination": "skills/android/aldefy/compose-expert/references",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/aldefy-compose-skill-MIT"
+    },
+    {
+      "id": "content-designer-ux-writing",
+      "repo": "https://github.com/content-designer/ux-writing-skill.git",
+      "paths": [
+        {
+          "source": "SKILL.md",
+          "destination": "skills/web/content-designer/ux-writing/SKILL.md",
+          "mode": "file"
+        },
+        {
+          "source": "references",
+          "destination": "skills/web/content-designer/ux-writing/references",
+          "mode": "tree"
+        },
+        {
+          "source": "templates",
+          "destination": "skills/web/content-designer/ux-writing/templates",
+          "mode": "tree"
+        },
+        {
+          "source": "examples",
+          "destination": "skills/web/content-designer/ux-writing/examples",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/content-designer-ux-writing-MIT"
     }
   ]
 }

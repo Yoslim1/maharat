@@ -84,3 +84,17 @@ Keep this file and the relevant license file beside any redistributed copy. Do n
 | https://github.com/borghei/Claude-Skills | The selected skill declares `MIT + Commons Clause` and repository metadata is `NOASSERTION`; unrestricted redistribution was not assumed. | `upstreams/self-improving-agent.md` |
 
 | `skills/web/visual-edit-precision` | https://github.com/wshobson/agents | `licenses/wshobson-agents-MIT` | تعديلات بصرية دقيقة موجهة بالصور والـannotations؛ لا تشغّل أدوات المصدر تلقائيًا. |
+
+
+## Phase 1 selected additions
+
+| Local path | Upstream source | License evidence | Notes |
+|---|---|---|---|
+| `skills/quality/softaworks/skill-judge` | https://github.com/softaworks/agent-toolkit | `licenses/softaworks-agent-toolkit-MIT` | Quality judge for SKILL.md; use report-only first. |
+| `skills/workflow/softaworks/agent-md-refactor` | https://github.com/softaworks/agent-toolkit | `licenses/softaworks-agent-toolkit-MIT` | AGENTS.md review/refactor; never weaken safety or CI policy. |
+| `skills/quality/softaworks/reducing-entropy` | https://github.com/softaworks/agent-toolkit | `licenses/softaworks-agent-toolkit-MIT` | Complexity and duplication review; approve deletions explicitly. |
+| `skills/quality/softaworks/qa-test-planner` | https://github.com/softaworks/agent-toolkit | `licenses/softaworks-agent-toolkit-MIT` | QA planning and regression cases; not a replacement for CI. |
+| `skills/android/aldefy/compose-expert` | https://github.com/aldefy/compose-skill | `licenses/aldefy-compose-skill-MIT` | Source-grounded Compose references; route selectively for Android. |
+| `skills/web/content-designer/ux-writing` | https://github.com/content-designer/ux-writing-skill | `licenses/content-designer-ux-writing-MIT` | UX writing and interface copy; English-first, not an Arabic policy. |
+
+These six are redistributed as skills only. Supporting agents, tools, bundles, and evals from upstream were not copied or enabled. Review any external command or network operation before running it.

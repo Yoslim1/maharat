@@ -1,3 +1,4 @@
+skills/android/aldefy/compose-expert/SKILL.md
 skills/android/android-ninja/SKILL.md
 skills/android/chrisbanes-compose-component-design/SKILL.md
 skills/android/chrisbanes-compose-focus-navigation/SKILL.md
@@ -82,9 +83,13 @@ skills/quality/guard-skills/docs-guard/SKILL.md
 skills/quality/guard-skills/test-guard/SKILL.md
 skills/quality/guard-skills/woo-guard/SKILL.md
 skills/quality/guard-skills/wp-guard/SKILL.md
+skills/quality/softaworks/qa-test-planner/SKILL.md
+skills/quality/softaworks/reducing-entropy/SKILL.md
+skills/quality/softaworks/skill-judge/SKILL.md
 skills/web/addyosmani/browser-testing-with-devtools/SKILL.md
 skills/web/addyosmani/frontend-ui-engineering/SKILL.md
 skills/web/anthropic-frontend-design/SKILL.md
+skills/web/content-designer/ux-writing/SKILL.md
 skills/web/design-system-patterns/SKILL.md
 skills/web/interaction-design/SKILL.md
 skills/web/jakub-better-accessibility/SKILL.md
@@ -128,6 +133,7 @@ skills/workflow/delegate-skills/warp-delegate/SKILL.md
 skills/workflow/delegate-skills/zcode-delegate/SKILL.md
 skills/workflow/review-skills/babysit-pr/SKILL.md
 skills/workflow/review-skills/debate-review/SKILL.md
+skills/workflow/softaworks/agent-md-refactor/SKILL.md
 skills/workflow/superpowers/brainstorming/SKILL.md
 skills/workflow/superpowers/executing-plans/SKILL.md
 skills/workflow/superpowers/receiving-code-review/SKILL.md
