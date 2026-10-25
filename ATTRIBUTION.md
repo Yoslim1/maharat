@@ -98,3 +98,14 @@ Keep this file and the relevant license file beside any redistributed copy. Do n
 | `skills/web/content-designer/ux-writing` | https://github.com/content-designer/ux-writing-skill | `licenses/content-designer-ux-writing-MIT` | UX writing and interface copy; English-first, not an Arabic policy. |
 
 These six are redistributed as skills only. Supporting agents, tools, bundles, and evals from upstream were not copied or enabled. Review any external command or network operation before running it.
+
+## Phase 2 — Android agent control and authorized testing
+| Local path | Upstream source | License evidence | Notes |
+|---|---|---|---|
+| `skills/android/agent-device/agent-device` | https://github.com/callstack/agent-device | `licenses/callstack-agent-device-MIT` | MIT; agent control, snapshots, selectors, gestures, evidence. |
+| `skills/android/agent-device/android-emulator` | https://github.com/callstack/agent-device | `licenses/callstack-agent-device-MIT` | MIT; emulator workflows. |
+| `skills/android/native-ai-tester/mobile-testing` | https://github.com/danielehrhardt/native-ai-tester | `licenses/native-ai-tester-MIT` | MIT; app/game screen-driven testing. |
+| `skills/android/android-pentesting` | https://github.com/DragonJAR/Android-Pentesting-Skill | `licenses/dragonjar-android-pentesting-Apache-2.0` | Apache-2.0; authorized Android security audits only. |
+| `skills/android/skydoves/adb` | https://github.com/skydoves/android-testing-skills | `licenses/skydoves-android-testing-skills-Apache-2.0` | Apache-2.0; selected ADB testing skills. |
+
+The Maharat-authored Android control skills are original project-specific guidance and do not redistribute upstream code.

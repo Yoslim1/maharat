@@ -141,3 +141,21 @@ Data Analytics Skills are currently reference-only because the checked upstream 
 | UX Writing | `skills/web/content-designer/ux-writing` | كتابة نصوص الواجهة ورسائل الخطأ وonboarding وempty states؛ إنجليزية أولًا وليست سياسة عربية تلقائية. | [content-designer/ux-writing-skill](https://github.com/content-designer/ux-writing-skill) |
 
 All six are added as skills only. They do not install agents, tools, bundles, or evals, and they must be selected on demand rather than loaded for every task.
+
+## Phase 2 — Android agent control and authorized testing
+| Skill | Local path | Purpose | Upstream |
+|---|---|---|---|
+| Agent Device | `skills/android/agent-device/agent-device` | تحكم وكيل عبر snapshots وselectors وgestures وevidence؛ استخدمه كطبقة واحدة فوق ADB. | [callstack/agent-device](https://github.com/callstack/agent-device) |
+| Agent Device Android Emulator | `skills/android/agent-device/android-emulator` | تشغيل وفحص Android Emulator في CI أو التطوير. | [callstack/agent-device](https://github.com/callstack/agent-device) |
+| Native AI Tester | `skills/android/native-ai-tester/mobile-testing` | اختبار بصري وتفاعلي للتطبيقات والألعاب وCanvas وGodot/Unity/Unreal دون locators ثابتة. | [danielehrhardt/native-ai-tester](https://github.com/danielehrhardt/native-ai-tester) |
+| Android Pentesting | `skills/android/android-pentesting` | تدقيق أمني Android مصرح به مع static/dynamic analysis وتقارير OWASP. | [DragonJAR/Android-Pentesting-Skill](https://github.com/DragonJAR/Android-Pentesting-Skill) |
+| ADB Testing Skills | `skills/android/skydoves/adb` | مهارات ADB للاتصال، الإدخال، screenshots، screenrecord، logcat، CI، والتقارير. | [skydoves/android-testing-skills](https://github.com/skydoves/android-testing-skills) |
+
+## Maharat-authored Android control layer
+| Skill | Local path | Purpose |
+|---|---|---|
+| Android Device Orchestration | `skills/android/maharat/android-device-orchestration` | حجز الجهاز واختيار مسار التحكم والتثبيت الآمن وإعادة المحاولة. |
+| Android Visual Interaction | `skills/android/maharat/android-visual-interaction` | تحليل الشاشة وOCR/OpenCV وتحويل الإحداثيات والتحقق من اللمس للألعاب وCanvas. |
+| Android Evidence Failure Analysis | `skills/android/maharat/android-evidence-failure-analysis` | جمع الأدلة وتصنيف الفشل وتنقيح السجلات والصور. |
+| Android Tool Selection | `skills/android/maharat/android-tool-selection` | اختيار الأدوات وتثبيتها والتحقق منها دون تكرار أو فتح خدمات عامة. |
+| Android Authorized Security Gate | `skills/android/maharat/android-authorized-security-gate` | بوابة تحقق من التفويض والنطاق والبيانات قبل MobSF أو Frida أو تحليل APK. | Authored for Maharat |

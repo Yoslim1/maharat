@@ -714,6 +714,78 @@
       ],
       "license_source": "LICENSE",
       "license_destination": "licenses/content-designer-ux-writing-MIT"
+    },
+    {
+      "id": "callstack-agent-device",
+      "repo": "https://github.com/callstack/agent-device.git",
+      "paths": [
+        {
+          "source": "skills/agent-device",
+          "destination": "skills/android/agent-device/agent-device",
+          "mode": "tree"
+        },
+        {
+          "source": "skills/android-emulator",
+          "destination": "skills/android/agent-device/android-emulator",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/callstack-agent-device-MIT"
+    },
+    {
+      "id": "native-ai-tester",
+      "repo": "https://github.com/danielehrhardt/native-ai-tester.git",
+      "paths": [
+        {
+          "source": "skills/mobile-testing",
+          "destination": "skills/android/native-ai-tester/mobile-testing",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/native-ai-tester-MIT"
+    },
+    {
+      "id": "dragonjar-android-pentesting",
+      "repo": "https://github.com/DragonJAR/Android-Pentesting-Skill.git",
+      "paths": [
+        {
+          "source": "SKILL.md",
+          "destination": "skills/android/android-pentesting/SKILL.md",
+          "mode": "file"
+        },
+        {
+          "source": "references",
+          "destination": "skills/android/android-pentesting/references",
+          "mode": "tree"
+        },
+        {
+          "source": "assets",
+          "destination": "skills/android/android-pentesting/assets",
+          "mode": "tree"
+        },
+        {
+          "source": "scripts",
+          "destination": "skills/android/android-pentesting/scripts",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/dragonjar-android-pentesting-Apache-2.0"
+    },
+    {
+      "id": "skydoves-android-testing-adb-selected",
+      "repo": "https://github.com/skydoves/android-testing-skills.git",
+      "paths": [
+        {
+          "source": "adb",
+          "destination": "skills/android/skydoves/adb",
+          "mode": "tree"
+        }
+      ],
+      "license_source": "LICENSE",
+      "license_destination": "licenses/skydoves-android-testing-skills-Apache-2.0"
     }
   ]
 }
